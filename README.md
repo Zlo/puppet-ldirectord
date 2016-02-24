@@ -118,8 +118,15 @@ Defining a service the following options are available:
         service,
         protocol,
         scheduler,
+        fallback = undef,
+        fallback_options = undef,
+        fallback_port = undef,
         checktype = undef,
         checkport = undef,
+        checkcommand = undef,
+        checktimeout = undef,
+        checkinterval = undef,
+        failurecount = undef,
         httpmethod = undef,
         virtualhost = undef,
         login = undef,
@@ -140,7 +147,7 @@ Will update later
 ## Limitations
 
 This is where you list OS compatibility, version compatibility, etc.
-Tested on Centos6, and ubuntu 12.04
+Tested on Centos6, and ubuntu 12.04 and 14.04
 
 ## Development
 
